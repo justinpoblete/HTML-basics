@@ -1,6 +1,6 @@
 # HTML-basics
 
- Front-End Web Developement Assignment #1
- Page 1: Introduction
- Page 2: Experiences
- Page 3: Interesting Pictures
+ <p>Front-End Web Developement Assignment #1 <br>
+ Page 1: Introduction<br>
+ Page 2: Experiences<br>
+ Page 3: Interesting Pictures </p>
