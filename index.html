@@ -3,26 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title> HTML Basics </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
   </head>
   <body>
     <header>
-      <nav>
-        <a href="index.html">Introduction</a> |
-        <a href="exp.html">Experience</a> |
-        <a href="pics.html">Pictures</a>
-      </nav>
-      <h1>HTML Basics</h1>
+      <div class="navbar">
+              <a href="index.html"><h1>HTML Basics |</h1></a>
+                <nav>
+                  <ul>
+                    <li><a href="index.html">Introduction</a></li>
+                    <li><a href="exp.html">Experience</a></li>
+                    <li><a href="pics.html">Pictures</a></li>
+                  </ul>
+                </nav>
+      </div>
       </header>
+      <hr class="one">
       <main>
       <section>
         <h2>Introduction</h2>
-        <p>Hello, my name is Justin Poblete. <br>
-        I am a CS major that transfered from Goldenwest Community College to CSUF. </p>
+        <p>Hello, my name is <span>Justin Poblete</span>. </p>
+        <p>I am a CS major that transfered from Goldenwest Community College to CSUF. </p>
       </section>
       <section>
         <h2>Fun Facts About Myself</h2>
-        <ol>
+        <ol >
           <li>I've never been to Disneyland</li>
           <li>I was an undefeated varsity badminton player in highschool</li>
           <li>I competed in a national fighting game competition</li>
